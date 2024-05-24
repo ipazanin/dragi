@@ -27,7 +27,7 @@ public static class SimulationTests
             Timestamp = startDate,
             Value = 500,
         };
-        var prices = pricesGenerator.GetPrices(initialPrice, endDate, 0.1M, 0.05M);
+        var prices = pricesGenerator.GetPrices(initialPrice, endDate, -0.1M, 0.05M);
         var latestPrice = prices.Value.GetLastValue();
         var asset = new Asset("SPY", [], latestPrice!);
         var assetWithPrices = new AssetWithPrices

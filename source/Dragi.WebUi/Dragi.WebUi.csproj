@@ -3,8 +3,6 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <PublishUrl>output</PublishUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,9 +17,5 @@
     <ProjectReference Include="..\Dragi.Application\Dragi.Application.csproj" />
     <ProjectReference Include="..\Dragi.Persistence\Dragi.Persistence.csproj" />
   </ItemGroup>
-
-  <Target Name="StaticWebAssets" AfterTargets="Publish">
-    <Exec Command="dotnet msbuild /t:GenerateStaticWebAssets /p:Configuration=$(Configuration)" />
-  </Target>
 
 </Project>

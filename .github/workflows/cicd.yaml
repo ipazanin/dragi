@@ -5,21 +5,41 @@ name: .NET
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: 8.0.x
-    - name: Restore dependencies
-      run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Format
-      run: dotnet format --verify-no-changes --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+      - uses: actions/checkout@v4
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+      - name: Restore dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build --no-restore
+      - name: Format
+        run: dotnet format --verify-no-changes --no-restore
+      - name: Test
+        run: dotnet test --no-build --verbosity normal
+      - name: Install .NET WASM Build Tools
+        run: dotnet workload install wasm-tools
+      - name: Change base-address in default HttpClient
+        run: sed -i 's/Href="\/"/Href="\/dragi"/g' source/Dragi.WebUi/Layout/NavMenu.razor
+      - name: Change base-address in default HttpClient
+        run: sed -i 's/Uri(builder.HostEnvironment.BaseAddress)/Uri("https:\/\/ipazanin.github.io\/dragi\/")/g' source/Dragi.WebUi/Extensions/HostBuilderExtensions.cs
+      - name: Change base-tag in index.html from / to https://ipazanin.github.io/dragi/
+        run: sed -i 's/<base href="\/" \/>/<base href="https:\/\/ipazanin.github.io\/dragi\/" \/>/g' source/Dragi.WebUi/wwwroot/index.html
+      - name: Publish .NET Core Project
+        run: dotnet publish ./source/Dragi.WebUi/Dragi.WebUi.csproj -c:Release -p:GHPages=true -o distribution --nologo
+      # GitHub Pages by default expects you to use the Jekyll static site generator. As part of this default, GitHub pages will not serve any files or folder starting with and underscore.
+      - name: Add .nojekyll file
+        run: touch distribution/wwwroot/.nojekyll
+      - name: Commit wwwroot to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: distribution/wwwroot
+          token: ${{ secrets.PUSH_TOKEN }}
+
