@@ -1,0 +1,23 @@
+﻿@inherits MainLayoutBase
+
+<MudThemeProvider @bind-IsDarkMode="@IsDarkMode" Theme="Theme" />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar Elevation="1">
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start"
+            OnClick="@(DrawerToggle)" />
+        <MudText Typo="Typo.h5" Class="ml-3">Dragi Portfolio Simulator</MudText>
+        <MudSpacer />
+        <MudIconButton Icon="@(IsDarkMode ? Icons.Material.Filled.LightMode : Icons.Material.Filled.DarkMode)"
+            OnClick="@ThemeButtonClicked" />
+        <MudSpacer />
+    </MudAppBar>
+    <MudDrawer @bind-Open="DrawerOpen" ClipMode="DrawerClipMode.Always" Elevation="2">
+        <NavMenu />
+    </MudDrawer>
+    <MudMainContent MaxWidth="@MaxWidth.Large">
+        @Body
+    </MudMainContent>
+</MudLayout>

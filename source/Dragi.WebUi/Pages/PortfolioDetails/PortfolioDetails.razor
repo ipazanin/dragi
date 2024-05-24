@@ -1,0 +1,15 @@
+﻿@page "/portfolio/{Name}"
+@inherits PortfolioDetailsBase
+
+
+<PageTitle>@(Name)</PageTitle>
+
+<MudContainer>
+    <MudText Typo="@Typo.h2" Style="margin: 20px">@(Name)</MudText>
+
+    @if (Portfolio is not null)
+    {
+        
+    }
+
+</MudContainer>

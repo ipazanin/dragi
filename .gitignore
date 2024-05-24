@@ -396,3 +396,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Properties launchSettings
+# Contains secrets
+**/Properties/launchSettings.json
