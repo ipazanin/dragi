@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Dragi.WebUi",
   "resources": {
-    "hash": "sha256-FHw+/SNXOWYy/378cLG9sCetKyusTW9NOSu+dzjMJbk=",
+    "hash": "sha256-XG8ZVyZLh9k8DJtrBgYEvzL5mO5kwd7uGR9BMkfhqns=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.6ufuqxqz95.js": "sha256-OlZSx3MLnqNqRlhiAc85ksjhO3vqEJle3Rx+yeGs36U="
     },
@@ -17,14 +17,14 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "Dragi.Application.wasm": "sha256-bqrPq0IglZrQXOCOYUb2MRKTzMpl47af9j32lXOveTg=",
-      "Dragi.Common.wasm": "sha256-cHohqhFRg7RLfYtAol8keYMWK4fEwg9MnWVf0paadbQ=",
-      "Dragi.Domain.wasm": "sha256-mGHZEBDEOg6H6rCfPwk13nek4CUcnly9zQrUsJDEiIk=",
-      "Dragi.Persistence.wasm": "sha256-OU2xngto7zWNl7tuOxwSgyhLJkCmcjhkbQM0rf4WmT8=",
-      "Dragi.WebUi.wasm": "sha256-2SxvhHflzj6kFHQg/X1cKAeobiMrZjU7UqGUZpvs51c=",
+      "Dragi.Application.wasm": "sha256-slVvoCvQ8Qvc+aSprfFQP5lu1qjouKvxdkd0XDkkH7k=",
+      "Dragi.Common.wasm": "sha256-K568ubDnc1WnLWi4Y2c7//FUJ79i8PmMaX04RnAXLUo=",
+      "Dragi.Domain.wasm": "sha256-6NLnnglkr+abxRK3JQjIrc2kkjWwJjkQM73hnQZppuQ=",
+      "Dragi.Persistence.wasm": "sha256-VJpxErJ6mvfrCNrRGbWvOogYxsHsgmvRsSNydk3XZvY=",
+      "Dragi.WebUi.wasm": "sha256-iv/WM8XnPcKah0xJx8jDjM03ZGn74PRFjSwzJA0mGDM=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-UDSi1KS2zQKgUmGcrt4gYqpNdTs/DcqbpV3YxndRL5A=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-BF0S4jYOovb986vtwo29YI2MS0oF3P36b/yvjKJzlwQ=",
-      "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-Ws5szf6fWPAXna+XyWsAhavx+WDFcA/91DQ7iPRPCMs=",
+      "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-SF4AwjzzQI81/MSoTVnFD4gFZpg6LjqTKIEwEfND+74=",
       "Microsoft.Extensions.Configuration.Abstractions.wasm": "sha256-87sn2TYqgdZ95sXmavjKEzoEfMgHnYQ9LOvnMX+aZcI=",
       "Microsoft.Extensions.Configuration.Json.wasm": "sha256-Sxmy2ZS134URxbHEvdbS6NcQ3zXS7UWx/5ZPpwiW7FA=",
       "Microsoft.Extensions.Configuration.wasm": "sha256-jYqHUZ07UYWc8POk7xhas6xQYH7t1qoTcylqoDqncJk=",
