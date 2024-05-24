@@ -1,4 +1,4 @@
-namespace Dragi.Application.MarketData.DataTransferObjects;
+﻿namespace Dragi.Application.MarketData.DataTransferObjects;
 
 /// <summary>
 /// https://polygon.io/docs/stocks/get_v2_aggs_ticker__stocksticker__range__multiplier___timespan___from___to

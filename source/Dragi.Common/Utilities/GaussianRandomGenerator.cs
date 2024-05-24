@@ -1,4 +1,4 @@
-namespace Dragi.Common.Utilities;
+﻿namespace Dragi.Common.Utilities;
 
 public class GaussianRandomGenerator
 {

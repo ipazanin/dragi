@@ -1,4 +1,4 @@
-
+﻿
 namespace Dragi.Domain.PortfolioManagement.DataObject;
 
 public class UpdatePortfolioData

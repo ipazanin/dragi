@@ -1,4 +1,4 @@
-namespace Dragi.Domain.ProfitLossSimulation.Models.Conditions;
+﻿namespace Dragi.Domain.ProfitLossSimulation.Models.Conditions;
 
 public abstract class Condition
 {

@@ -1,4 +1,4 @@
-using Dragi.Common.Utilities;
+﻿using Dragi.Common.Utilities;
 using Dragi.Domain.MarketData.Models;
 using Dragi.Domain.ProfitLossSimulation.Services;
 

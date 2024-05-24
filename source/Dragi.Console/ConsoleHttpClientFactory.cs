@@ -1,4 +1,4 @@
-namespace Dragi.Console;
+﻿namespace Dragi.Console;
 
 public class ConsoleHttpClientFactory : IHttpClientFactory
 {

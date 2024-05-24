@@ -1,4 +1,4 @@
-using Dragi.Application.MarketData.Configurations;
+﻿using Dragi.Application.MarketData.Configurations;
 using Dragi.Application.MarketData.DataTransferObjects;
 using Dragi.Application.MarketData.Mappers;
 using Dragi.Common.Results;

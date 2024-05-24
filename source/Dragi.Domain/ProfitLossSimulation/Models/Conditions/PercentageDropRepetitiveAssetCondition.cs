@@ -1,4 +1,4 @@
-
+﻿
 using Dragi.Domain.MarketData.Models;
 
 namespace Dragi.Domain.ProfitLossSimulation.Models.Conditions;

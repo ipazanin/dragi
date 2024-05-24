@@ -1,4 +1,4 @@
-namespace Dragi.Application.MarketData.DataTransferObjects;
+﻿namespace Dragi.Application.MarketData.DataTransferObjects;
 
 public record MarketDataResult
 {

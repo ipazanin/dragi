@@ -1,4 +1,4 @@
-using Dragi.Domain.MarketData.Models;
+﻿using Dragi.Domain.MarketData.Models;
 
 namespace Dragi.Domain.PortfolioManagement.Models;
 

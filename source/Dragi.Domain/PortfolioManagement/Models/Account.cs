@@ -1,4 +1,4 @@
-namespace Dragi.Domain.PortfolioManagement.Models;
+﻿namespace Dragi.Domain.PortfolioManagement.Models;
 
 public record Account
 {

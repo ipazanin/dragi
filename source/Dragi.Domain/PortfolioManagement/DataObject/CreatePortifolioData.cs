@@ -1,4 +1,4 @@
-namespace Dragi.Domain.PortfolioManagement.DataObject;
+﻿namespace Dragi.Domain.PortfolioManagement.DataObject;
 
 public class CreatePortfolioData
 {

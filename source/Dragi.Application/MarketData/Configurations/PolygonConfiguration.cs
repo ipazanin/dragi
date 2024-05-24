@@ -1,4 +1,4 @@
-namespace Dragi.Application.MarketData.Configurations;
+﻿namespace Dragi.Application.MarketData.Configurations;
 
 public record PolygonConfiguration
 {

@@ -1,4 +1,4 @@
-// MainLayoutBase.cs
+﻿// MainLayoutBase.cs
 //
 // © 2022 Espresso News. All rights reserved.
 

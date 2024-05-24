@@ -1,4 +1,4 @@
-using Dragi.Domain.PortfolioManagement.Models;
+﻿using Dragi.Domain.PortfolioManagement.Models;
 using Dragi.Domain.PortfolioManagement.Services;
 using Dragi.WebUi.Extensions;
 using Dragi.WebUi.Shared;
@@ -35,5 +35,4 @@ public class PortfolioDetailsBase : CancellableComponentBase
 
         await base.OnInitializedAsync();
     }
-
 }

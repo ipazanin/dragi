@@ -1,4 +1,4 @@
-using Dragi.Application.MarketData.Configurations;
+﻿using Dragi.Application.MarketData.Configurations;
 using Dragi.Application.MarketData.Services;
 using Dragi.Domain.MarketData.Services;
 using Dragi.Domain.PortfolioManagement.Repositories;

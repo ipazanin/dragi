@@ -1,4 +1,4 @@
-using Dragi.Application.MarketData.DataTransferObjects;
+﻿using Dragi.Application.MarketData.DataTransferObjects;
 using Dragi.Domain.MarketData.Models;
 
 namespace Dragi.Application.MarketData.Mappers;

@@ -1,4 +1,4 @@
-using Dragi.Common.Results;
+﻿using Dragi.Common.Results;
 using Dragi.Domain.MarketData.Services;
 
 namespace Dragi.Domain.PortfolioManagement.Validators;

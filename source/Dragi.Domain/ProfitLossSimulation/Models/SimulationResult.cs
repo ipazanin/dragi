@@ -1,4 +1,4 @@
-namespace Dragi.Domain.ProfitLossSimulation.Models;
+﻿namespace Dragi.Domain.ProfitLossSimulation.Models;
 
 public record SimulationResult
 {

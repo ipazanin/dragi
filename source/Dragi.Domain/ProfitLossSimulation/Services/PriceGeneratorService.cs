@@ -1,4 +1,4 @@
-using Dragi.Common.Results;
+﻿using Dragi.Common.Results;
 using Dragi.Common.Utilities;
 using Dragi.Domain.MarketData.Models;
 

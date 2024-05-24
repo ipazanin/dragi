@@ -1,7 +1,9 @@
+﻿#pragma warning disable IDE0005 // Using directive is unnecessary.
+using Dragi.WebUi;
+#pragma warning restore IDE0005 // Using directive is unnecessary.
+using Dragi.WebUi.Extensions;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using Dragi.WebUi;
-using Dragi.WebUi.Extensions;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");

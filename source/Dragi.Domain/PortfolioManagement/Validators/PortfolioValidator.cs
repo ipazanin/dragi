@@ -1,4 +1,4 @@
-using Dragi.Domain.PortfolioManagement.DataObject;
+﻿using Dragi.Domain.PortfolioManagement.DataObject;
 
 namespace Dragi.Domain.PortfolioManagement.Validators;
 

@@ -1,4 +1,4 @@
-namespace Dragi.Domain.MarketData.Models;
+﻿namespace Dragi.Domain.MarketData.Models;
 
 public record Price
 {

@@ -1,4 +1,4 @@
-namespace Dragi.Common.Results;
+﻿namespace Dragi.Common.Results;
 
 public class Result
 {

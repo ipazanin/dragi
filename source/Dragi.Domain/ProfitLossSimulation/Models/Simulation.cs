@@ -1,4 +1,4 @@
-using Dragi.Domain.PortfolioManagement.Models;
+﻿using Dragi.Domain.PortfolioManagement.Models;
 using Dragi.Domain.ProfitLossSimulation.Models.Stategies;
 
 namespace Dragi.Domain.ProfitLossSimulation.Models;

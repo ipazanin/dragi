@@ -1,4 +1,4 @@
-using Dragi.Common.Results;
+﻿using Dragi.Common.Results;
 using Dragi.Domain.PortfolioManagement.Models;
 using Dragi.Domain.ProfitLossSimulation.Models.ChangeRequests;
 using Dragi.Domain.ProfitLossSimulation.Models.Conditions;
