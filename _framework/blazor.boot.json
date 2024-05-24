@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Dragi.WebUi",
   "resources": {
-    "hash": "sha256-ie8kx8sfIrc6seGjqzBjwZ8o5axyZLMYZgzPZTzf6Ag=",
+    "hash": "sha256-yelX8/kejJFSrUupibWcKsaUzvotRTirg0gkpyU/5h4=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.6ufuqxqz95.js": "sha256-OlZSx3MLnqNqRlhiAc85ksjhO3vqEJle3Rx+yeGs36U="
     },
@@ -17,11 +17,11 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "Dragi.Application.wasm": "sha256-mnuKbkwbQ++2mY80HIu+mt3lWH5ba/YLZt8vCeLCHnQ=",
-      "Dragi.Common.wasm": "sha256-YwrUGY44uddj7d38Mlfsa9eHYRPu4zrVqQ9nac1oK5M=",
-      "Dragi.Domain.wasm": "sha256-vq1zXFC4Hp+3aY4YLr4LVN4jp+9P/0V0UngF5tW9XPQ=",
-      "Dragi.Persistence.wasm": "sha256-LlG8MSR0GNqakMlgqc/aXhcMtTrxulNC2fSPWBE2aQo=",
-      "Dragi.WebUi.wasm": "sha256-3MW8RvP4KBnyqE0ZPmgTrOar4+CKdemonEed5NynY1U=",
+      "Dragi.Application.wasm": "sha256-BB//JzCtYsPlAEuku9VL5SgRbEawU6Tu8EJxa9UsbP4=",
+      "Dragi.Common.wasm": "sha256-xJi0EXVrT3ScbKQkN+hmMbjMMPE0APk6KK/2itO3wbo=",
+      "Dragi.Domain.wasm": "sha256-oyPAdMYKst34g6StVZhaaubP1DCPvgwPk9rEhR4f+YY=",
+      "Dragi.Persistence.wasm": "sha256-6eYjtDf61X78KhaZLq1CJimOSn/S1x4HFbizX3BUHOM=",
+      "Dragi.WebUi.wasm": "sha256-x+DREZ2EbpQEdb8RJykMcmQCOr6DWRNn0g7JO6ZhC/s=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-UDSi1KS2zQKgUmGcrt4gYqpNdTs/DcqbpV3YxndRL5A=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-BF0S4jYOovb986vtwo29YI2MS0oF3P36b/yvjKJzlwQ=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-Ws5szf6fWPAXna+XyWsAhavx+WDFcA/91DQ7iPRPCMs=",
